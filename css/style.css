@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.96);
+    background-image: url('../pics/back.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: whitesmoke;
+}
+
+.container {
+    box-sizing: border-box;
+    min-height: 65vh;
+    width: 50vh;
+    margin: 17vh;
+
+    border-radius: 4vh;
+    border: 1px solid rgba(245, 245, 245, 0.195);
+    background: linear-gradient(135deg, rgba(245, 245, 245, 0.020), rgba(93, 158, 255, 0.32));
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 0 3rem 1rem rgba(0, 60, 81, 0.648);
+    backdrop-filter: blur(1vh);
+}
+
+.heading {
+    padding: 3rem;
+    font-size: large;
+}
+
+
+.email-container,
+.password-container,
+.others,
+.btn {
+    padding: 0.8rem;
+}
+
+.email-container input,
+.password-container input {
+    box-sizing: border-box;
+    padding: 1.7vh;
+    width: 35vh;
+    font-family: monospace;
+
+    border-radius: 4vh;
+    border-style: none; 
+}
+
+
+.others {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+a {
+    color:rgb(96, 155, 249);
+    text-decoration: none;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+.btn {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btn button {
+    box-sizing: border-box;
+    padding: 2vh;
+    width: 20vh;
+
+    border-radius: 4vh;
+    border-style: none;
+    
+    background: linear-gradient(145deg, rgb(116, 178, 236), rgba(245, 245, 245, 0.796), rgb(116, 178, 236));
+    text-transform: uppercase;
+    font-size: 1.8vh;
+    color: whitesmoke;
+
+}
+
+.btn button:hover {
+    color: rgb(48, 48, 48);
+    background: whitesmoke;
+    cursor: pointer;
+}
+
+.checkbox-container {
+    display: flex;
+    align-content: center;
+}
+
+.checkbox-container label, input:hover {
+    cursor: pointer;
+} 
+.checkbox-container label {
+    padding: 0.5vh;
+}
